@@ -27,7 +27,7 @@ Aqui o espaço na memória é reservado:
 ```
  744:	48 83 ec 10          	sub    $0x10,%rsp
 ```
-Aqui fica o endereço da váriavel vulneravel:
+Aqui fica o endereço da váriavel vulneravel (Repare que o IO_Stdin foi utilizado):
 ```
  748:	48 8d 3d d5 00 00 00 	lea    0xd5(%rip),%rdi        # 824 <_IO_stdin_used+0x4>
 ```
